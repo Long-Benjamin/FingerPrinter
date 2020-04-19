@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:text="本 demo 使用谷歌官方提供的指纹认证API开发，仅对Android 6.0及以上系统版本的手机提供支持。"
+        android:textColor="@color/color_333333"
+        android:lineSpacingExtra="5dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="20dp"
+        android:text="1、6.0及以上：使用的是自定义弹窗的方式实现识别交互。\n 2、9.0及以上：使用的是系统自带的识别弹窗，要求最低版本为Android 9.0版本。"
+        android:textColor="@color/color_666666"
+        android:lineSpacingExtra="5dp"
+        android:textSize="14sp" />
+
+    <TextView
+            android:id="@+id/tv_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="45dp"
+            android:paddingTop="12dp"
+            android:paddingRight="45dp"
+            android:paddingBottom="12dp"
+            android:text="Android 6.0及以上"
+            android:textColor="@color/color_white"
+            android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="45dp"
+        android:paddingRight="45dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/color_white"
+        android:textSize="16sp"
+        android:text="Android 9.0及以上" />
+
+
+</LinearLayout>
